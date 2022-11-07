@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-07T23:14:20 IST" name="Suite" finished-at="2022-11-07T23:15:06 IST" duration-ms="45634">
+    <groups>
+    </groups>
+    <test started-at="2022-11-07T23:14:20 IST" name="login" finished-at="2022-11-07T23:14:31 IST" duration-ms="10693">
+      <class name="testcases.Login_Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Login_Test@18bc345]" started-at="2022-11-07T23:14:20 IST" name="setup" finished-at="2022-11-07T23:14:29 IST" duration-ms="8310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EnterValidCredentials(java.util.Hashtable)[pri:0, instance:testcases.Login_Test@18bc345]" started-at="2022-11-07T23:14:29 IST" name="EnterValidCredentials" data-provider="dp" finished-at="2022-11-07T23:14:31 IST" duration-ms="2139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test123, username=testdemowebshop@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterValidCredentials -->
+      </class> <!-- testcases.Login_Test -->
+    </test> <!-- login -->
+    <test started-at="2022-11-07T23:14:31 IST" name="clear" finished-at="2022-11-07T23:14:32 IST" duration-ms="989">
+      <class name="testcases.ClearShoppingCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ClearShoppingCart@c055c54]" started-at="2022-11-07T23:14:31 IST" name="setup" finished-at="2022-11-07T23:14:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClearAddToCartAndGoToBooks()[pri:0, instance:testcases.ClearShoppingCart@c055c54]" started-at="2022-11-07T23:14:31 IST" name="ClearAddToCartAndGoToBooks" finished-at="2022-11-07T23:14:32 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearAddToCartAndGoToBooks -->
+      </class> <!-- testcases.ClearShoppingCart -->
+    </test> <!-- clear -->
+    <test started-at="2022-11-07T23:14:32 IST" name="additems" finished-at="2022-11-07T23:14:36 IST" duration-ms="4390">
+      <class name="testcases.AddItems">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AddItems@3c9bfddc]" started-at="2022-11-07T23:14:32 IST" name="setup" finished-at="2022-11-07T23:14:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectBooksAddtocart()[pri:0, instance:testcases.AddItems@3c9bfddc]" started-at="2022-11-07T23:14:32 IST" name="SelectBooksAddtocart" finished-at="2022-11-07T23:14:36 IST" duration-ms="4385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectBooksAddtocart -->
+      </class> <!-- testcases.AddItems -->
+    </test> <!-- additems -->
+    <test started-at="2022-11-07T23:14:36 IST" name="gotocardss" finished-at="2022-11-07T23:14:39 IST" duration-ms="3038">
+      <class name="testcases.GotoCards">
+        <test-method signature="MoveToShippingCartAndClick()[pri:0, instance:testcases.GotoCards@5e01a982]" started-at="2022-11-07T23:14:36 IST" name="MoveToShippingCartAndClick" finished-at="2022-11-07T23:14:39 IST" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToShippingCartAndClick -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.GotoCards@5e01a982]" started-at="2022-11-07T23:14:36 IST" name="setup" finished-at="2022-11-07T23:14:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testcases.GotoCards -->
+    </test> <!-- gotocardss -->
+    <test started-at="2022-11-07T23:14:39 IST" name="billing" finished-at="2022-11-07T23:14:51 IST" duration-ms="11603">
+      <class name="testcases.BillingAddress">
+        <test-method signature="checkout()[pri:1, instance:testcases.BillingAddress@235a0c16]" started-at="2022-11-07T23:14:39 IST" name="checkout" finished-at="2022-11-07T23:14:43 IST" duration-ms="3943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BillingAddress@235a0c16]" started-at="2022-11-07T23:14:39 IST" name="setup" finished-at="2022-11-07T23:14:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BillingAddress@235a0c16]" started-at="2022-11-07T23:14:43 IST" name="setup" finished-at="2022-11-07T23:14:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BillingAddressdropdown()[pri:2, instance:testcases.BillingAddress@235a0c16]" started-at="2022-11-07T23:14:43 IST" name="BillingAddressdropdown" finished-at="2022-11-07T23:14:46 IST" duration-ms="2281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingAddressdropdown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.BillingAddress@235a0c16]" started-at="2022-11-07T23:14:46 IST" name="setup" finished-at="2022-11-07T23:14:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="BillingAdd(java.util.Hashtable)[pri:3, instance:testcases.BillingAddress@235a0c16]" started-at="2022-11-07T23:14:46 IST" name="BillingAdd" data-provider="dp" finished-at="2022-11-07T23:14:51 IST" duration-ms="5282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{phoneno=9.8765432119E10, lname=test1, email=abc1234@gmail.com, zipcode=123456.0, address2=testnew1, address1=door no:12345, city=andhrapradesh, fname=prasad1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingAdd -->
+      </class> <!-- testcases.BillingAddress -->
+    </test> <!-- billing -->
+    <test started-at="2022-11-07T23:14:51 IST" name="checkoutdetails" finished-at="2022-11-07T23:14:55 IST" duration-ms="4073">
+      <class name="testcases.CheckoutDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:51 IST" name="setup" finished-at="2022-11-07T23:14:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shippingAddress()[pri:1, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:51 IST" name="shippingAddress" finished-at="2022-11-07T23:14:51 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingAddress -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:51 IST" name="setup" finished-at="2022-11-07T23:14:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="shippingaddress()[pri:2, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:51 IST" name="shippingaddress" finished-at="2022-11-07T23:14:51 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingaddress -->
+        <test-method signature="ShippingMethodNextDayAir()[pri:3, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:51 IST" name="ShippingMethodNextDayAir" finished-at="2022-11-07T23:14:52 IST" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShippingMethodNextDayAir -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:51 IST" name="setup" finished-at="2022-11-07T23:14:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="paymentmethod()[pri:4, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:52 IST" name="paymentmethod" finished-at="2022-11-07T23:14:52 IST" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentmethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:52 IST" name="setup" finished-at="2022-11-07T23:14:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="paymentinfo()[pri:5, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:52 IST" name="paymentinfo" finished-at="2022-11-07T23:14:53 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinfo -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:52 IST" name="setup" finished-at="2022-11-07T23:14:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:53 IST" name="setup" finished-at="2022-11-07T23:14:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="confirmorder()[pri:6, instance:testcases.CheckoutDetails@2371aaca]" started-at="2022-11-07T23:14:53 IST" name="confirmorder" finished-at="2022-11-07T23:14:55 IST" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmorder -->
+      </class> <!-- testcases.CheckoutDetails -->
+    </test> <!-- checkoutdetails -->
+    <test started-at="2022-11-07T23:14:55 IST" name="sucee" finished-at="2022-11-07T23:15:05 IST" duration-ms="9568">
+      <class name="testcases.SuccessOrder">
+        <test-method signature="successfullprocessed()[pri:1, instance:testcases.SuccessOrder@424fd310]" started-at="2022-11-07T23:14:55 IST" name="successfullprocessed" finished-at="2022-11-07T23:14:57 IST" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullprocessed -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.SuccessOrder@424fd310]" started-at="2022-11-07T23:14:55 IST" name="setup" finished-at="2022-11-07T23:14:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.SuccessOrder@424fd310]" started-at="2022-11-07T23:14:57 IST" name="setup" finished-at="2022-11-07T23:14:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderDetails()[pri:2, instance:testcases.SuccessOrder@424fd310]" started-at="2022-11-07T23:14:57 IST" name="orderDetails" finished-at="2022-11-07T23:15:05 IST" duration-ms="7395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderDetails -->
+      </class> <!-- testcases.SuccessOrder -->
+    </test> <!-- sucee -->
+    <test started-at="2022-11-07T23:15:05 IST" name="logout" finished-at="2022-11-07T23:15:06 IST" duration-ms="1081">
+      <class name="testcases.Logout">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:testcases.Logout@f478a81]" started-at="2022-11-07T23:14:20 IST" name="BeforeSuite" finished-at="2022-11-07T23:14:20 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logout@f478a81]" started-at="2022-11-07T23:15:05 IST" name="setup" finished-at="2022-11-07T23:15:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logout()[pri:0, instance:testcases.Logout@f478a81]" started-at="2022-11-07T23:15:05 IST" name="logout" finished-at="2022-11-07T23:15:06 IST" duration-ms="1078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:testcases.Logout@f478a81]" started-at="2022-11-07T23:15:06 IST" name="AfterSuite" finished-at="2022-11-07T23:15:07 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- testcases.Logout -->
+    </test> <!-- logout -->
+  </suite> <!-- Suite -->
+</testng-results>

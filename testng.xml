@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ 
+ <listeners>
+ 
+ <listener class-name="listeners.ListenerClass"></listener>
+ 
+ </listeners>
+ 
+ 
+  <test name="login">
+    <classes>
+      <class name="testcases.Login_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="clear">
+    <classes>
+      <class name="testcases.ClearShoppingCart"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="additems">
+    <classes>
+      <class name="testcases.AddItems"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="gotocardss">
+    <classes>
+      <class name="testcases.GotoCards"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="billing">
+    <classes>
+      <class name="testcases.BillingAddress"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="checkoutdetails">
+    <classes>
+      <class name="testcases.CheckoutDetails"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="sucee">
+    <classes>
+      <class name="testcases.SuccessOrder"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="logout">
+    <classes>
+      <class name="testcases.Logout"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+</suite> <!-- Suite -->

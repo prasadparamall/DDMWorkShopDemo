@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\BOSU\eclipse-workspace\DDMWorkShopDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">8 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.BillingAddress" class="method navigator-link" hash-for-method="BillingAdd({phoneno=9.8765432119E10, lname=test1, email=abc1234@gmail.com, zipcode=123456.0, address2=testnew1,...)">BillingAdd({phoneno=9.8765432119E10, lname=test1, email=abc1234@gmail.com, zipcode=123456.0, address2=testnew1,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.BillingAddress" class="method navigator-link" hash-for-method="BillingAddressdropdown">BillingAddressdropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.ClearShoppingCart" class="method navigator-link" hash-for-method="ClearAddToCartAndGoToBooks">ClearAddToCartAndGoToBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.Login_Test" class="method navigator-link" hash-for-method="EnterValidCredentials({password=Test123, username=testdemowebshop@gmail.com})">EnterValidCredentials({password=Test123, username=testdemowebshop@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.GotoCards" class="method navigator-link" hash-for-method="MoveToShippingCartAndClick">MoveToShippingCartAndClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.AddItems" class="method navigator-link" hash-for-method="SelectBooksAddtocart">SelectBooksAddtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckoutDetails" class="method navigator-link" hash-for-method="ShippingMethodNextDayAir">ShippingMethodNextDayAir</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.BillingAddress" class="method navigator-link" hash-for-method="checkout">checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckoutDetails" class="method navigator-link" hash-for-method="confirmorder">confirmorder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.Logout" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.SuccessOrder" class="method navigator-link" hash-for-method="orderDetails">orderDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckoutDetails" class="method navigator-link" hash-for-method="paymentinfo">paymentinfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckoutDetails" class="method navigator-link" hash-for-method="paymentmethod">paymentmethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckoutDetails" class="method navigator-link" hash-for-method="shippingAddress">shippingAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.CheckoutDetails" class="method navigator-link" hash-for-method="shippingaddress">shippingaddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.SuccessOrder" class="method navigator-link" hash-for-method="successfullprocessed">successfullprocessed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.ClearShoppingCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClearAddToCartAndGoToBooks">
+                  </a> <!-- ClearAddToCartAndGoToBooks -->
+                  <span class="method-name">ClearAddToCartAndGoToBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.Login_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EnterValidCredentials({password=Test123, username=testdemowebshop@gmail.com})">
+                  </a> <!-- EnterValidCredentials({password=Test123, username=testdemowebshop@gmail.com}) -->
+                  <span class="method-name">EnterValidCredentials</span>
+                  <span class="parameters">({password=Test123, username=testdemowebshop@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.BillingAddress</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingAdd({phoneno=9.8765432119E10, lname=test1, email=abc1234@gmail.com, zipcode=123456.0, address2=testnew1,...)">
+                  </a> <!-- BillingAdd({phoneno=9.8765432119E10, lname=test1, email=abc1234@gmail.com, zipcode=123456.0, address2=testnew1,...) -->
+                  <span class="method-name">BillingAdd</span>
+                  <span class="parameters">({phoneno=9.8765432119E10, lname=test1, email=abc1234@gmail.com, zipcode=123456.0, address2=testnew1, address1=door no:12345, city=andhrapradesh, fname=prasad1})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BillingAddressdropdown">
+                  </a> <!-- BillingAddressdropdown -->
+                  <span class="method-name">BillingAddressdropdown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkout">
+                  </a> <!-- checkout -->
+                  <span class="method-name">checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.GotoCards</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MoveToShippingCartAndClick">
+                  </a> <!-- MoveToShippingCartAndClick -->
+                  <span class="method-name">MoveToShippingCartAndClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.SuccessOrder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="orderDetails">
+                  </a> <!-- orderDetails -->
+                  <span class="method-name">orderDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfullprocessed">
+                  </a> <!-- successfullprocessed -->
+                  <span class="method-name">successfullprocessed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.AddItems</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectBooksAddtocart">
+                  </a> <!-- SelectBooksAddtocart -->
+                  <span class="method-name">SelectBooksAddtocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CheckoutDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShippingMethodNextDayAir">
+                  </a> <!-- ShippingMethodNextDayAir -->
+                  <span class="method-name">ShippingMethodNextDayAir</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmorder">
+                  </a> <!-- confirmorder -->
+                  <span class="method-name">confirmorder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentinfo">
+                  </a> <!-- paymentinfo -->
+                  <span class="method-name">paymentinfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentmethod">
+                  </a> <!-- paymentmethod -->
+                  <span class="method-name">paymentmethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shippingAddress">
+                  </a> <!-- shippingAddress -->
+                  <span class="method-name">shippingAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shippingaddress">
+                  </a> <!-- shippingaddress -->
+                  <span class="method-name">shippingaddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\BOSU\eclipse-workspace\DDMWorkShopDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.ListenerClass&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.Login_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;clear&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.ClearShoppingCart&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- clear --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;additems&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.AddItems&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- additems --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;gotocardss&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.GotoCards&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- gotocardss --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;billing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.BillingAddress&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- billing --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;checkoutdetails&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.CheckoutDetails&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- checkoutdetails --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;sucee&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.SuccessOrder&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- sucee --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;logout&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.Logout&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- logout --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">clear (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">additems (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">gotocardss (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">billing (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">checkoutdetails (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">sucee (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">logout (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'orderDetails')
+data.setCell(0, 2, 'testcases.SuccessOrder')
+data.setCell(0, 3, 7874);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SelectBooksAddtocart')
+data.setCell(1, 2, 'testcases.AddItems')
+data.setCell(1, 3, 4236);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'BillingAdd')
+data.setCell(2, 2, 'testcases.BillingAddress')
+data.setCell(2, 3, 3947);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkout')
+data.setCell(3, 2, 'testcases.BillingAddress')
+data.setCell(3, 3, 3793);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'MoveToShippingCartAndClick')
+data.setCell(4, 2, 'testcases.GotoCards')
+data.setCell(4, 3, 3014);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'confirmorder')
+data.setCell(5, 2, 'testcases.CheckoutDetails')
+data.setCell(5, 3, 2336);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'BillingAddressdropdown')
+data.setCell(6, 2, 'testcases.BillingAddress')
+data.setCell(6, 3, 2189);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'successfullprocessed')
+data.setCell(7, 2, 'testcases.SuccessOrder')
+data.setCell(7, 3, 2086);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'EnterValidCredentials')
+data.setCell(8, 2, 'testcases.Login_Test')
+data.setCell(8, 3, 1928);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'ClearAddToCartAndGoToBooks')
+data.setCell(9, 2, 'testcases.ClearShoppingCart')
+data.setCell(9, 3, 998);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'logout')
+data.setCell(10, 2, 'testcases.Logout')
+data.setCell(10, 3, 960);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ShippingMethodNextDayAir')
+data.setCell(11, 2, 'testcases.CheckoutDetails')
+data.setCell(11, 3, 571);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'paymentmethod')
+data.setCell(12, 2, 'testcases.CheckoutDetails')
+data.setCell(12, 3, 517);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'paymentinfo')
+data.setCell(13, 2, 'testcases.CheckoutDetails')
+data.setCell(13, 3, 372);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'shippingAddress')
+data.setCell(14, 2, 'testcases.CheckoutDetails')
+data.setCell(14, 3, 140);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'shippingaddress')
+data.setCell(15, 2, 'testcases.CheckoutDetails')
+data.setCell(15, 3, 102);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Logout</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">BeforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">434 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EnterValidCredentials({password=Test123, username=testdemowebshop@gmail.com})</span>
+                <span class="method-start">8466 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.ClearShoppingCart</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClearAddToCartAndGoToBooks</span>
+                <span class="method-start">10499 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.AddItems</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11519 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SelectBooksAddtocart</span>
+                <span class="method-start">11520 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.GotoCards</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MoveToShippingCartAndClick</span>
+                <span class="method-start">15779 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.BillingAddress</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">18817 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkout</span>
+                <span class="method-start">18818 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BillingAddressdropdown</span>
+                <span class="method-start">22614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">24874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">BillingAdd({phoneno=9.8765432119E10, lname=test1, email=abc1234@gmail.com, zipcode=123456.0, address2=testnew1,...)</span>
+                <span class="method-start">24875 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CheckoutDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shippingAddress</span>
+                <span class="method-start">28839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">28982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">shippingaddress</span>
+                <span class="method-start">28982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">29087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ShippingMethodNextDayAir</span>
+                <span class="method-start">29087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">29661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">paymentmethod</span>
+                <span class="method-start">29661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">30181 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">paymentinfo</span>
+                <span class="method-start">30181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">30556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">confirmorder</span>
+                <span class="method-start">30556 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SuccessOrder</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">successfullprocessed</span>
+                <span class="method-start">32925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">35017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">orderDetails</span>
+                <span class="method-start">35018 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Logout</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">42941 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">42942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">AfterSuite</span>
+                <span class="method-start">43922 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

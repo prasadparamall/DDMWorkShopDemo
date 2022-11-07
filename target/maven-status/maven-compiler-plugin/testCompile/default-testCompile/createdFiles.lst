@@ -1,0 +1,8 @@
+testcases\CheckoutDetails.class
+testcases\SuccessOrder.class
+testcases\AddItems.class
+testcases\ClearShoppingCart.class
+testcases\GotoCards.class
+testcases\Login_Test.class
+testcases\BillingAddress.class
+testcases\Logout.class

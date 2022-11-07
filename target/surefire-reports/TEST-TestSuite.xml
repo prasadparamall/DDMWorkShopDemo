@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="50.971" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\BOSU\eclipse-workspace\DDMWorkShopDemo\src\test\resources\drivers\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\BOSU\eclipse-workspace\DDMWorkShopDemo\target\test-classes;C:\Users\BOSU\eclipse-workspace\DDMWorkShopDemo\target\classes;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\BOSU\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\BOSU\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\BOSU\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\BOSU\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\BOSU\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\BOSU\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\BOSU\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\BOSU\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\BOSU\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\BOSU\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\BOSU\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\BOSU\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\BOSU\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\BOSU\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\BOSU\.m2\repository\org\apache\poi\poi\3.16\poi-3.16.jar;C:\Users\BOSU\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\BOSU\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\BOSU\.m2\repository\org\apache\poi\poi-ooxml\3.16\poi-ooxml-3.16.jar;C:\Users\BOSU\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\BOSU\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.16\poi-ooxml-schemas-3.16.jar;C:\Users\BOSU\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\BOSU\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\BOSU\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\BOSU\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\BOSU\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\BOSU\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\BOSU\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\BOSU\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\BOSU\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\BOSU\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\BOSU\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\BOSU\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\BOSU\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\BOSU\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\BOSU\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\BOSU\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\BOSU\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\BOSU\AppData\Local\Temp\surefire5182607355407455100\surefirebooter10841603140016354445.jar C:\Users\BOSU\AppData\Local\Temp\surefire5182607355407455100 2022-11-07T23-14-02_786-jvmRun1 surefire14546436598339947272tmp surefire_013522599998539957868tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\BOSU\eclipse-workspace\DDMWorkShopDemo\target\test-classes;C:\Users\BOSU\eclipse-workspace\DDMWorkShopDemo\target\classes;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\BOSU\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\BOSU\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\BOSU\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\BOSU\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\BOSU\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\BOSU\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\BOSU\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\BOSU\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\BOSU\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\BOSU\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\BOSU\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\BOSU\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\BOSU\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\BOSU\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\BOSU\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\BOSU\.m2\repository\org\apache\poi\poi\3.16\poi-3.16.jar;C:\Users\BOSU\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\BOSU\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\BOSU\.m2\repository\org\apache\poi\poi-ooxml\3.16\poi-ooxml-3.16.jar;C:\Users\BOSU\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\BOSU\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.16\poi-ooxml-schemas-3.16.jar;C:\Users\BOSU\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\BOSU\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\BOSU\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\BOSU\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\BOSU\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\BOSU\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\BOSU\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\BOSU\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\BOSU\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\BOSU\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\BOSU\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\BOSU\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\BOSU\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\BOSU\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\BOSU\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\BOSU\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\BOSU"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Users\BOSU\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\BOSU\eclipse-workspace\DDMWorkShopDemo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\BOSU\AppData\Local\Temp\surefire5182607355407455100\surefirebooter10841603140016354445.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+8"/>
+    <property name="user.name" value="BOSU"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.5+8"/>
+    <property name="localRepository" value="C:\Users\BOSU\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\BOSU\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\BOSU\eclipse-workspace\DDMWorkShopDemo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\BOSU\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/BOSU/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/BOSU/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.10\bin;E:\Testing Softwares\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\BOSU\AppData\Local\Microsoft\WindowsApps;C:\Users\BOSU\AppData\Roaming\npm;C:\Users\BOSU\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.5+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="EnterValidCredentials[{password=Test123, username=testdemowebshop@gmail.com}](1)" classname="testcases.Login_Test" time="2.149">
+    <system-out><![CDATA[chrome
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 25798
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 07, 2022 11:14:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ClearAddToCartAndGoToBooks" classname="testcases.ClearShoppingCart" time="0.983"/>
+  <testcase name="SelectBooksAddtocart" classname="testcases.AddItems" time="4.381"/>
+  <testcase name="MoveToShippingCartAndClick" classname="testcases.GotoCards" time="3.034"/>
+  <testcase name="checkout" classname="testcases.BillingAddress" time="3.943"/>
+  <testcase name="BillingAddressdropdown" classname="testcases.BillingAddress" time="2.282"/>
+  <testcase name="BillingAdd[{phoneno=9.8765432119E10, lname=test1, email=abc1234@gmail.com, zipcode=123456.0, address2=testnew1, address1=door no:12345, city=andhrapradesh, fname=prasad1}](1)" classname="testcases.BillingAddress" time="5.284"/>
+  <testcase name="shippingAddress" classname="testcases.CheckoutDetails" time="0.14"/>
+  <testcase name="shippingaddress" classname="testcases.CheckoutDetails" time="0.1"/>
+  <testcase name="ShippingMethodNextDayAir" classname="testcases.CheckoutDetails" time="0.574"/>
+  <testcase name="paymentmethod" classname="testcases.CheckoutDetails" time="0.519"/>
+  <testcase name="paymentinfo" classname="testcases.CheckoutDetails" time="0.371"/>
+  <testcase name="confirmorder" classname="testcases.CheckoutDetails" time="2.36"/>
+  <testcase name="successfullprocessed" classname="testcases.SuccessOrder" time="2.167">
+    <system-out><![CDATA[Order number: 1312691
+Your order has been successfully processed!
+]]></system-out>
+  </testcase>
+  <testcase name="orderDetails" classname="testcases.SuccessOrder" time="7.394">
+    <system-out><![CDATA[Order #1312691
+Order Date: Monday, November 7, 2022
+Order Status: Pending
+Order Total: 81.00
+Billing Address
+prasad1 test1
+Email: abc1234@gmail.com
+Phone: 9.8765432119E10
+Fax:
+door no:12345
+testnew1
+andhrapradesh , 123456.0
+India
+Payment Method
+Cash On Delivery (COD)
+Shipping Address
+prasad1 test1
+Email: abc1234@gmail.com
+Phone: 98765432119
+Fax:
+door no:12345
+testnew1
+andhrapradesh , 123456
+India
+Shipping Method
+Next Day Air
+Product(s)
+Name Price Quantity Total
+Computing and Internet 10.00 1 10.00
+Fiction 24.00 1 24.00
+Sub-Total: 34.00
+Shipping: 40.00
+Payment method additional fee: 7.00
+Tax: 0.00
+Order Total: 81.00
+]]></system-out>
+  </testcase>
+  <testcase name="logout" classname="testcases.Logout" time="1.077"/>
+</testsuite>
